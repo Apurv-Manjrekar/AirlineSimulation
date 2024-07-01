@@ -1,0 +1,28 @@
+# Format: each row is a record for something, which can contain mutliple fields, seperated by space(s)
+# Ignore any row starting with a #
+# Three types of rows as indicated by the first field of the row
+# 1:  airport info.  Airport Code followed by the full description of the airport
+# 2: airport distance info: origination  destination distance-in-miles
+# 3: flight info: origination desination time length-of-flight cost
+#
+# airport list
+1 ORD Chicago
+1 IAH Houston
+1 SFO San Francisco
+1 EWR New York (Newwark, NJ)
+
+# airport distances
+2 ORD SFO 2000
+2 ORD EWR 1200
+2 IAH SFO 1800
+2 IAH EWR 1500
+
+# flights info
+3 EWR ORD 7.0 5 2000
+3 EWR ORD 14.0 5 2000
+3 ORD SFO 11.0 10 3000
+3 ORD SFO 16.0 10 3000
+3 EWR IAH 8.5 5 2200
+3 EWR IAH 13.0 5 2200
+3 IAH SFO 12.0 10 2800
+3 IAH SFO 18.0 10 2800
